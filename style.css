@@ -1,0 +1,187 @@
+body {
+    font-family: "Oswald";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background: #697589;
+    margin: -20px;
+}
+
+header, ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    padding: 30px;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.leftLinks {
+    padding-right: 20px;
+}
+
+img {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle {
+    list-style: none;
+    padding: 30px;
+}
+
+.right {
+    list-style: none;
+    padding: 30px;
+    margin-right: 0%;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color: #697589;
+	font-family:"Oswald";
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: -10px;
+    font-weight: 400;
+}
+
+.top {
+    height: 320px;
+    color: white;
+    background: #697589;
+    margin: -10px;
+}
+
+p {
+    padding: 40px;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+
+.centerImg {
+    margin-left: 40%;
+}
+
+span {
+    margin-left: 44%;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(37, 48, 87);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.why {
+    height: 400px;
+    font-weight: 350;
+    align-items: center;
+}
+
+div {
+    width: 300px;
+    height: 150px;
+    background: #697589;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#gym, #leftOne, #rightOne {
+   height: 700px;
+   background: rgb(212, 214, 219);
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.visit {
+    font-size: 15px;
+    padding: 0px;
+}
+
+#gym {
+    display: flex;
+}
+
+.box {
+    margin-top: 100px;
+}
+
+.leftButton, .rightButton {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+}   
+
+.secondFour {
+    width: 45%;
+}
+
+.rightAka {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    font-style: normal;
+    margin: 45%;
+}
+
+.volunteer {
+    height: 500px;
+    font-weight: 350;
+    align-items: center;
+}
+
+footer {
+    background: rgb(33, 33, 63);
+}
+
+.leftSide , .rightSide {
+    color: white;
+    width: 10%;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
